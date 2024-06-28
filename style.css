@@ -1,0 +1,67 @@
+body {
+	font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.login__form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	padding: 0 30%;	
+}
+
+.login__input {
+	padding:20px 0 20px 24px;
+	margin-bottom:15px;
+	text-transform:capitalize;
+	border:none;
+	background:#f7f8fa;
+	border-radius:8px;
+	transition:.15s linear;
+}
+
+.login__input:hover, .login__submit:hover {
+	transform:scale(1.01);
+}
+
+.login__input:focus{
+	box-shadow:0 3px 8px rgba(0,0,0,.21);
+	transform:scale(1.015);
+	outline:0
+}
+
+.login__submit {
+	transition:.15s linear;
+	padding: 5px 15px;
+	background:#13ab4e;
+	border-radius:8px;
+	font-weight:700;
+	font-size:18px;
+	line-height:27px;
+	color:#fff;
+	border:none;
+	outline:0;
+	cursor:pointer;
+	margin-right: 15px;
+}
+
+.night {
+	background: #575757;	
+	color: #f4f5e1;
+}
+.light {
+	background: #b3e7ff;
+	color: #54544e;
+}
+
+.list__item {
+		font-size: 1.2rem;
+		font-weight: 600;
+		text-decoration: underline overline #FF3028;
+		transition:.1s linear;
+}
+.list__item:hover {
+	transform:scale(1.01);
+	text-decoration: underline #FF3028;
+}
